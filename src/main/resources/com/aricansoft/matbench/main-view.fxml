@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aricansoft.matbench.MainController">
+   <children>
+      <Button layoutX="166.0" layoutY="251.0" mnemonicParsing="false" onAction="#runmark" prefHeight="63.0" prefWidth="76.0" text="Testi başlat" />
+      <Text layoutX="14.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="V 0.1-alpha" wrappingWidth="64.0" />
+      <Text layoutX="339.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ArıcanSoft" wrappingWidth="54.486328125" />
+      <Text layoutX="100.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MatBench">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
